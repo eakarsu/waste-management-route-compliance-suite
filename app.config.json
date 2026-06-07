@@ -1,0 +1,145 @@
+{
+  "slug": "waste-management-route-compliance-suite",
+  "title": "Waste Management Route Compliance Suite",
+  "buyer": "Waste haulers, recycling operators, municipalities",
+  "description": "Waste collection route operations, container assets, landfill/recycling compliance, fleet, billing exceptions, and service quality.",
+  "modules": [
+    {
+      "id": "routes",
+      "table": "routes",
+      "label": "Routes",
+      "description": "Routes workspace for Waste Management Route Compliance Suite.",
+      "subfeatures": [
+        "Route plan",
+        "Missed stops",
+        "Optimization"
+      ],
+      "prefix": "R",
+      "seedValues": [
+        "Route plan",
+        "Missed stops",
+        "Optimization"
+      ]
+    },
+    {
+      "id": "containers",
+      "table": "containers",
+      "label": "Containers",
+      "description": "Containers workspace for Waste Management Route Compliance Suite.",
+      "subfeatures": [
+        "Asset inventory",
+        "Placement",
+        "Repair"
+      ],
+      "prefix": "C",
+      "seedValues": [
+        "Asset inventory",
+        "Placement",
+        "Repair"
+      ]
+    },
+    {
+      "id": "fleet",
+      "table": "fleet",
+      "label": "Fleet",
+      "description": "Fleet workspace for Waste Management Route Compliance Suite.",
+      "subfeatures": [
+        "Truck status",
+        "Maintenance",
+        "Fuel"
+      ],
+      "prefix": "F",
+      "seedValues": [
+        "Truck status",
+        "Maintenance",
+        "Fuel"
+      ]
+    },
+    {
+      "id": "service-issues",
+      "table": "serviceIssues",
+      "label": "Service Issues",
+      "description": "Service Issues workspace for Waste Management Route Compliance Suite.",
+      "subfeatures": [
+        "Complaints",
+        "Contamination",
+        "Resolution"
+      ],
+      "prefix": "SI",
+      "seedValues": [
+        "Complaints",
+        "Contamination",
+        "Resolution"
+      ]
+    },
+    {
+      "id": "recycling",
+      "table": "recycling",
+      "label": "Recycling Quality",
+      "description": "Recycling Quality workspace for Waste Management Route Compliance Suite.",
+      "subfeatures": [
+        "Contamination",
+        "Material stream",
+        "Education"
+      ],
+      "prefix": "RQ",
+      "seedValues": [
+        "Contamination",
+        "Material stream",
+        "Education"
+      ]
+    },
+    {
+      "id": "landfill-compliance",
+      "table": "landfillCompliance",
+      "label": "Landfill Compliance",
+      "description": "Landfill Compliance workspace for Waste Management Route Compliance Suite.",
+      "subfeatures": [
+        "Tonnage",
+        "Permits",
+        "Inspections"
+      ],
+      "prefix": "LC",
+      "seedValues": [
+        "Tonnage",
+        "Permits",
+        "Inspections"
+      ]
+    },
+    {
+      "id": "billing",
+      "table": "billing",
+      "label": "Billing Exceptions",
+      "description": "Billing Exceptions workspace for Waste Management Route Compliance Suite.",
+      "subfeatures": [
+        "Overages",
+        "Suspensions",
+        "Credits"
+      ],
+      "prefix": "BE",
+      "seedValues": [
+        "Overages",
+        "Suspensions",
+        "Credits"
+      ]
+    },
+    {
+      "id": "analytics",
+      "table": "analytics",
+      "label": "Operations Analytics",
+      "description": "Operations Analytics workspace for Waste Management Route Compliance Suite.",
+      "subfeatures": [
+        "Cost per route",
+        "SLA",
+        "Diversion rate"
+      ],
+      "prefix": "OA",
+      "seedValues": [
+        "Cost per route",
+        "SLA",
+        "Diversion rate"
+      ]
+    }
+  ],
+  "port": 5620
+}
